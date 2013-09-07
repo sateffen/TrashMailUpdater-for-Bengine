@@ -32,7 +32,7 @@ class Bengine_Game_Cronjob_TrashMailUpdater extends Recipe_CronjobAbstract
                     $domainList[$k] = '@' . trim( $domain );
                 }
                 
-                $domainList = mysql_real_escape_string( implode( ',' , $domainList ) );
+                $domainList = implode( ',' , $domainList );
                 Core::getOptions()->setValue( 'BANNED_EMAILS' , $domainList , true );
         }
 
