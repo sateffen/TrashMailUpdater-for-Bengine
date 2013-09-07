@@ -8,7 +8,7 @@ This is a plugin for the bengine, which updates your trashmail database, so noon
 Installation
 ============
 
-To install this plugin put the TrashMailUpdater.php in the /app/code/Bengine/Cronjob directory and execute the TrashMailUpdater.sql to your database.
+To install this plugin put the TrashMailUpdater.php in the /app/code/Bengine/Game/Cronjob directory and execute the TrashMailUpdater.sql to your database.
 
 
 

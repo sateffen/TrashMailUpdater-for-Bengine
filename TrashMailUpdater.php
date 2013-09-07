@@ -1,6 +1,6 @@
 <?php
 /*
- *  Copyright (C) 2012 sateffen
+ *  Copyright (C) 2013 sateffen
  *  https://github.com/sateffen/TrashMailUpdater-for-Bengine
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-class Bengine_Cronjob_TrashMailUpdater extends Recipe_CronjobAbstract
+class Bengine_Game_Cronjob_TrashMailUpdater extends Recipe_CronjobAbstract
 {
         /**
          * Updates the Trashmailist
